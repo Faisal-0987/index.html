@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul>
+                <li class="active"><span class="icon">&#8962;</span></li>
+                <li><span class="icon">&#128269;</span></li>
+                <li><span class="icon">&#128214;</span></li>
+                <li><span class="icon">&#128172;</span></li>
+                <li><span class="icon">&#10094;&#10095;</span></li>
+                <li><span class="icon">&#10006;</span></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-content">
+                    <span class="netflix-series">N <span class="series">SERIES</span></span>
+                    <h1 class="title"><span class="white">MONEY</span><span class="red">HEIST</span></h1>
+                    <p class="subtitle">PART 4</p>
+                    <div class="meta">
+                        <span class="imdb">IMDB <strong>8.8/10</strong></span>
+                        <span class="streams">2B+ Streams</span>
+                    </div>
+                    <div class="hero-buttons">
+                        <button class="btn play">Play</button>
+                        <button class="btn trailer">Watch Trailer</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Movie Sections -->
+            <section class="movie-row">
+                <h2>New this week</h2>
+                <div class="movies">
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/1Qj9QbP/movie1.jpg" alt="The Mother"/>
+                        <div class="movie-title">The Mother</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/8DKJY0w/movie2.jpg" alt="Black Rist"/>
+                        <div class="movie-title">Black Rist</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/9qvG2xj/movie3.jpg" alt="RDY"/>
+                        <div class="movie-title">RDY</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/4gQ7JpN/movie4.jpg" alt="Perdition"/>
+                        <div class="movie-title">Perdition</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/8rR9N0M/movie5.jpg" alt="Extraction"/>
+                        <div class="movie-title">Extraction</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/Vv1p01t/movie6.jpg" alt="Jagame Thandhiram"/>
+                        <div class="movie-title">Jagame Thandhiram</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/7XbF8jJ/movie7.jpg" alt="Irishman"/>
+                        <div class="movie-title">Irishman</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="movie-row">
+                <h2>Trending Now</h2>
+                <div class="movies">
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/6w1tgkT/movie8.jpg" alt="Trending 1"/>
+                        <div class="movie-title">Trending 1</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/2d6ZKXz/movie9.jpg" alt="Trending 2"/>
+                        <div class="movie-title">Trending 2</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/3NQwQpB/movie10.jpg" alt="Trending 3"/>
+                        <div class="movie-title">Trending 3</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/6b9mQzg/movie11.jpg" alt="Trending 4"/>
+                        <div class="movie-title">Trending 4</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/LJ9kHhP/movie12.jpg" alt="Trending 5"/>
+                        <div class="movie-title">Trending 5</div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.ibb.co/W6v2w3Q/movie13.jpg" alt="Trending 6"/>
+                        <div class="movie-title">Trending 6</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>&copy; 2025 Netflix Clone. All rights reserved.</p>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
